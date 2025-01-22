@@ -1,0 +1,1 @@
+Howdy! This repo contains all the code and images for the first project in CSCE331, the professional website!
