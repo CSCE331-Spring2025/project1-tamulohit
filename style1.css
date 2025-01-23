@@ -1,7 +1,48 @@
 body {
     background-color: black;
+    color: white;
 }
 
-body {
-    color: white;
+header h1{
+    color: black;
+    -webkit-text-stroke: 1px white;
+    font-size: 52px;
+    text-align: center;
+    text-shadow: -4px 4px 8px lightgray; /* left/right (neg/pos) then up/down (neg/pos) then blur then color */
+}
+
+nav{
+    white-space: nowrap;
+    max-width: 1200px;
+    margin: 0px auto;
+}
+nav li{
+    width: 20%;
+    display: inline-block;
+    font-size: 24px;
+    text-align: center;
+}
+nav li a{
+    color: purple;
+}
+
+.intro-flex-container{
+    display: flex;
+    margin-top: 25px;
+    justify-content: center;
+    gap: 50px;
+}
+.intro-flex-container img{
+    border: 2px solid white;
+    width: 400px;
+    object-fit: cover;
+}
+.intro-text{
+    border: 2px solid white;
+    width: 400px;
+    height: 400px;
+}
+.intro-text h3, p{
+    padding-left: 8px;
+    padding-right: 8px;
 }
