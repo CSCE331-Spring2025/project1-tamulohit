@@ -5,48 +5,101 @@
 
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style1.css" /> <!-- this adds the .css file to this html webpage -->
-
-    <a href="index.html">About me</a>
-    <a href="portfolio.html">Projects</a>
-    <a href="qualifications.html">Technical Experience</a>
-    <a href="service.html">Service</a>
-    <a href="genai.html">AI Generated Page</a>
-
+    <link rel="stylesheet" href="style1.css" />
   </head>
 
   <body>
-    <h1>Lohitaksh Allampalli</h1>
+    <header>
+      <h1>Portfolio</h1>
+    </header>
 
-    <h2>Howdy!</h2>
-    <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis libero unde 
-      quis quasi debitis fugit at accusamus vero. Voluptate hic explicabo
-      aperiam eveniet doloremque eum, molestiae fuga ut earum. Perferendis?.
-    </p>
+    <div class="navigation">
+      <a href="index.html">About me</a>
+      <a class="active" href="portfolio.html">Projects</a>
+      <a href="qualifications.html">Technical Experience</a>
+      <a href="service.html">Service</a>
+      <a href="genai.html">AI Generated Page</a>
+    </div>
 
-    <img src="images/flower.jpg" alt="an image of NAND to Tetris CPU schematic">
-    <img src="images/flower.jpg" alt="an image of NAND to Tetris code">
+    <div class="nand-flex">
+      <div class="nand-text">
+        <h3>NAND to Tetris - Hardware</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis libero
+          unde quis quasi debitis fugit at accusamus vero. Voluptate hic
+          explicabo aperiam eveniet doloremque eum, molestiae fuga ut earum.
+          Perferendis?.
+        </p>
+      </div>
+    </div>
 
-    <h3>Here's what I am doing currently!</h3>
-    <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis libero unde 
-      quis quasi debitis fugit at accusamus vero. Voluptate hic explicabo
-      aperiam eveniet doloremque eum, molestiae fuga ut earum. Perferendis?.
-    </p>
+    <div class="nand-images-flex">
+      <div>
+        <img
+          src="images/flower.jpg"
+          alt="an image of NAND to Tetris CPU schematic"
+        />
+      </div>
 
-    <img src="images/flower.jpg" alt="an image of ECEN 468 canny edge detector ASIC simulation waveform">
-    <img src="images/flower.jpg" alt="an image of canny edge detector ASIC schematic">
+      <div>
+        <img src="images/flower.jpg" alt="an image of NAND to Tetris code" />
+      </div>
+    </div>
 
-    <h3>Here's what I've done recently!</h3>
-    <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis libero unde 
-      quis quasi debitis fugit at accusamus vero. Voluptate hic explicabo
-      aperiam eveniet doloremque eum, molestiae fuga ut earum. Perferendis?.
-    </p>
+    <div class="asic-flex">
+      <div class="asic-text">
+        <h3>ECEN 468 Canny Edge Detector ASIC</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis libero
+          unde quis quasi debitis fugit at accusamus vero. Voluptate hic
+          explicabo aperiam eveniet doloremque eum, molestiae fuga ut earum.
+          Perferendis?.
+        </p>
+      </div>
+    </div>
 
-    <img src="images/flower.jpg" alt="an image of surfer the waveform viewer">
-    <img src="images/flower.jpg" alt="an image of something else related to SS OOO CPU with BPU and caching">
+    <div class="asic-images-flex">
+      <div>
+        <img
+          src="images/flower.jpg"
+          alt="an image of ECEN 468 canny edge detector ASIC simulation waveform"
+        />
+      </div>
 
+      <div>
+        <img
+          src="images/flower.jpg"
+          alt="an image of canny edge detector ASIC schematic"
+        />
+      </div>
+    </div>
+
+    <div class="ss-flex">
+      <div class="ss-text">
+        <h3>Pipelined Superscalar CPU with Branch Prediction and Cache</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis libero
+          unde quis quasi debitis fugit at accusamus vero. Voluptate hic
+          explicabo aperiam eveniet doloremque eum, molestiae fuga ut earum.
+          Perferendis?.
+        </p>
+      </div>
+    </div>
+
+    <div class="ss-images-flex">
+      <div>
+        <img
+          src="images/flower.jpg"
+          alt="an image of surfer the waveform viewer"
+        />
+      </div>
+
+      <div>
+        <img
+          src="images/flower.jpg"
+          alt="an image of something else related to SS OOO CPU with BPU and caching"
+        />
+      </div>
+    </div>
   </body>
 </html>

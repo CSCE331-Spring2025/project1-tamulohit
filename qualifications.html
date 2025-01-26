@@ -5,47 +5,76 @@
 
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style1.css" /> <!-- this adds the .css file to this html webpage -->
-
-    <a href="index.html">About me</a>
-    <a href="portfolio.html">Projects</a>
-    <a href="qualifications.html">Technical Experience</a>
-    <a href="service.html">Service</a>
-    <a href="genai.html">AI Generated Page</a>
-
+    <link rel="stylesheet" href="style1.css" />
   </head>
 
   <body>
-    <iframe src="https://docs.google.com/document/d/e/2PACX-1vTqxbWr-xmIWUj2rF3brzMitlvYHoWWEnc165eyVXUxT2Yz18Haup6xXFZos5sI_6xzOr837l9vpR4d/pub?embedded=true" height="600" width="850"></iframe>
-    
-    <h2>Howdy!</h2>
-    <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis libero unde 
-      quis quasi debitis fugit at accusamus vero. Voluptate hic explicabo
-      aperiam eveniet doloremque eum, molestiae fuga ut earum. Perferendis?.
-    </p>
+    <header>
+      <h1>Technical Experience</h1>
+    </header>
 
-    <h3>Here's what I am doing currently!</h3>
-    <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis libero unde 
-      quis quasi debitis fugit at accusamus vero. Voluptate hic explicabo
-      aperiam eveniet doloremque eum, molestiae fuga ut earum. Perferendis?.
-    </p>
+    <div class="navigation">
+      <a href="index.html">About me</a>
+      <a href="portfolio.html">Projects</a>
+      <a class="active" href="qualifications.html">Technical Experience</a>
+      <a href="service.html">Service</a>
+      <a href="genai.html">AI Generated Page</a>
+    </div>
 
-    <h3>Here's what I've done recently!</h3>
-    <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis libero unde 
-      quis quasi debitis fugit at accusamus vero. Voluptate hic explicabo
-      aperiam eveniet doloremque eum, molestiae fuga ut earum. Perferendis?.
-    </p>
+    <div class="embed-flex">
+      <iframe
+        src="https://docs.google.com/document/d/1tqG6UEL2jgllL645LLlhUjkivIp8fH4r9sFGwhnXoUE/preview"
+        >Resume</iframe
+      >
+    </div>
 
-    <h3>Fun facts!</h3>
-    <ul>
-      <li>Item 1</li>
-      <li>Item 2</li>
-      <li>Item 3</li>
-      <li>Item 4</li>
-    </ul>
+    <div class="skills-flexbox">
+      <!-- Left Column -->
+      <div class="left">
+        <div class="box">
+          <h3>Verilog & SystemC</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi,
+            magni eaque est ab suscipit fuga earum ullam repellendus ratione
+            odio. Ipsa quaerat tenetur fugit nam illum cupiditate voluptatem
+            possimus veritatis!
+          </p>
+        </div>
 
+        <div class="box">
+          <h3>ARMv8 & C++</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi,
+            magni eaque est ab suscipit fuga earum ullam repellendus ratione
+            odio. Ipsa quaerat tenetur fugit nam illum cupiditate voluptatem
+            possimus veritatis!
+          </p>
+        </div>
+
+        <div class="box">
+          <h3>
+            Raspberry Pi
+          </h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus
+            commodi earum illo incidunt pariatur. Sequi magnam reprehenderit sit
+            repellat perferendis corrupti adipisci, illum aut facere, autem
+            saepe ipsam eveniet! Eum.
+          </p>
+        </div>
+
+      </div>
+
+      <!-- Right Column -->
+      <div class="right">
+        <h3>Areas of Interest</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi,
+          magni eaque est ab suscipit fuga earum ullam repellendus ratione
+          odio. Ipsa quaerat tenetur fugit nam illum cupiditate voluptatem
+          possimus veritatis!
+        </p>
+      </div>
+    </div>
   </body>
 </html>
