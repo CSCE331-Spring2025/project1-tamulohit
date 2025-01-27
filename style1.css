@@ -12,6 +12,13 @@ body a{
 
 h3{
     font-size: 22px;
+    background-color: #111ea9;
+}
+h3, p{
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 1px;
+    margin-right: 1px;
 }
 
 header h1{
@@ -71,15 +78,6 @@ header h1{
     height: 600px;
     border-radius: 25px;
 }
-.intro-text h3, p{
-    padding-left: 10px;
-    padding-right: 10px;
-    margin-left: 1px;
-    margin-right: 1px;
-}
-.intro-text h3{
-    background-color: #111ea9;
-}
 
 .bio{
     margin-top: 30px;
@@ -90,15 +88,6 @@ header h1{
     margin-top: 25px;
     margin-bottom: 25px;
     border-radius: 25px;
-}
-.bio h3, p{
-    padding-left: 10px;
-    padding-right: 10px;
-    margin-left: 1px;
-    margin-right: 1px;
-}
-.bio h3{
-    background-color: #111ea9;
 }
 
 .fun-facts{
@@ -148,15 +137,6 @@ header h1{
     width: 1305.5px; /* 604 + 607.5 + 100 - 4 - 2 */
     border-radius: 25px;
 }
-.nand-text h3, p{
-    padding-left: 10px;
-    padding-right: 10px;
-    margin-left: 1px;
-    margin-right: 1px;
-}
-.nand-text h3{
-    background-color: #111ea9;
-}
 .nand-images-flex{
     display: flex;
     margin-top: 25px;
@@ -180,15 +160,6 @@ header h1{
     width: 1305.5px; /* 604 + 607.5 + 100 - 4 - 2 */
     border-radius: 25px;
 }
-.asic-text h3, p{
-    padding-left: 10px;
-    padding-right: 10px;
-    margin-left: 1px;
-    margin-right: 1px;
-}
-.asic-text h3{
-    background-color: #111ea9;
-}
 .asic-images-flex{
     display: flex;
     margin-top: 25px;
@@ -211,15 +182,6 @@ header h1{
     border: 2px solid white;
     width: 1305.5px; /* 604 + 607.5 + 100 - 4 - 2 */
     border-radius: 25px;
-}
-.ss-text h3, p{
-    padding-left: 10px;
-    padding-right: 10px;
-    margin-left: 1px;
-    margin-right: 1px;
-}
-.ss-text h3{
-    background-color: #111ea9;
 }
 .ss-images-flex{
     display: flex;
@@ -267,30 +229,12 @@ iframe{
     border: 2px solid white;
     border-radius: 25px;
 }
-.box h3, p{
-    padding-left: 10px;
-    padding-right: 10px;
-    margin-left: 1px;
-    margin-right: 1px;
-}
-.box h3{
-    background-color: #111ea9;
-}
 
 .right{
     background-color: black;
     border: 2px solid white;
     border-radius: 25px;
     width: 600px;
-}
-.right h3, p{
-    padding-left: 10px;
-    padding-right: 10px;
-    margin-left: 1px;
-    margin-right: 1px;
-}
-.right h3{
-    background-color: #111ea9;
 }
 
 /* SERVICE PAGE */
@@ -304,13 +248,4 @@ iframe{
     border: 2px solid white;
     width: 1305.5px; /* 604 + 607.5 + 100 - 4 - 2 */
     border-radius: 25px;
-}
-.service-text h3, p{
-    padding-left: 10px;
-    padding-right: 10px;
-    margin-left: 1px;
-    margin-right: 1px;
-}
-.service-text h3{
-    background-color: #111ea9;
 }
