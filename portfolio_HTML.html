@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Lohit's Website</title>
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <link rel="stylesheet" href="style1.css" /> -->
+  </head>
+
+  <body>
+    <header>
+      <h1>Portfolio</h1>
+    </header>
+
+    <div class="navigation">
+      <a href="index_HTML.html">About me</a>
+      <a class="active" href="portfolio_HTML.html">Projects</a>
+      <a href="qualifications_HTML.html">Technical Experience</a>
+      <a href="service_HTML.html">Service</a>
+      <a href="genai.html">AI Generated Page</a>
+    </div>
+
+    <div class="nand-flex">
+      <div class="nand-text">
+        <h3>NAND to Tetris - Hardware</h3>
+        <p>
+          One of my favorite personal projects is
+          <a href="https://www.nand2tetris.org/" target="_blank"
+            >NAND to Tetris</a
+          >, a MOOC (Massive Open Online Course) intended to bring clarity about
+          computer design and abstraction to students, hobbyists, and
+          professionals. I enjoyed this project because of the limited but
+          helpful guidance for the various components. Concepts were explained,
+          but implementation was programmer dependent. In the end, I implemented
+          incredibly efficient structural code emulating a primitive CPU. In
+          this process, I gained valuable insight about how the computer and
+          programmer interact via the instruction set architecture, and the
+          complexities involved in implementing a certain architecture
+          (blueprint) into code. The project also helped me develop a primitive
+          understanding of memory and how it is purely contiguous, where any
+          partitions are mostly developer protections, helping better understand
+          the context behind page faults and memory leaks. The images below
+          detail the datapath and the code used to achieve it.
+        </p>
+      </div>
+    </div>
+
+    <div class="nand-images-flex">
+      <div>
+        <img
+          src="images/hack_cpu_schematic.png"
+          alt="an image of NAND to Tetris CPU schematic"
+        />
+      </div>
+
+      <div>
+        <img src="images/nand_code.png" alt="an image of NAND to Tetris code" />
+      </div>
+    </div>
+
+    <div class="asic-flex">
+      <div class="asic-text">
+        <h3>ECEN 468 Canny Edge Detector ASIC</h3>
+        <p>
+          Though this project resulted from my lab in ECEN 468, it served as
+          invaluable design experience to me, being my first ever time
+          implementing an ASIC (Application Specific Integrated Circuit) in
+          Verilog. The beauty of hardware design is the necessity to understand
+          the various components involved. Primarily, this ASIC implemented the
+          <a
+            href="https://medium.com/@abhisheksriram845/canny-edge-detection-explained-and-compared-with-opencv-in-python-57a161b4bd19"
+            target="_blank"
+            >Canny Edge Detection Algorithm</a
+          >
+          and required understanding of all five stages as well as how the
+          control signals from those stages send information with the UART, get
+          scheduled by the bus architecture, and get managed in the SRAM.
+          Building this design enhanced my holistic view of hardware design,
+          motivating the understanding of software and hardware. Below shows the
+          waveform of the various signals between the different internal
+          components, as well as a diagram detailing the connections between the
+          components.
+        </p>
+      </div>
+    </div>
+
+    <div class="asic-images-flex">
+      <div>
+        <img
+          src="images/asic_waveform.png"
+          alt="an image of ECEN 468 canny edge detector ASIC simulation waveform"
+        />
+      </div>
+
+      <div>
+        <img
+          src="images/asic_diagram.png"
+          alt="an image of canny edge detector ASIC schematic"
+        />
+      </div>
+    </div>
+
+    <div class="ss-flex">
+      <div class="ss-text">
+        <h3>Pipelined Superscalar CPU with Branch Prediction and Cache</h3>
+        <p>
+          This project is one that has been on my to-do list for a few months
+          now, and it is motivated by my desire to build a more modern single
+          core processor in Verilog. I implemented a 1980s MIPS CPU in my
+          computer architecture class, which serves as a great base. This
+          project would involve adding pipelining to that architecture, as well
+          as additional hardware to implement multiple-issue, out of order
+          execution. Further, I would like to add a branch prediction unit and
+          caching to bring the most performance to this design. Over winter
+          break I began this project by setting up the software tools on my
+          local system. Having a Macbook complicated the process because a
+          popular waveform viewer (gtkwave) was not compatible, but this led to
+          finding the more modern and capable
+          <a href="https://surfer-project.org/" target="_blank">Surfer</a>, an
+          image of which is below. I am deeply excited to make progress on this
+          project and hope to gain valuable experience with more modern
+          techniques in computer architecture!
+        </p>
+      </div>
+    </div>
+
+    <div class="ss-images-flex">
+      <div>
+        <img
+          src="images/surfer.png"
+          alt="an image of surfer the waveform viewer"
+        />
+      </div>
+
+      <div>
+        <img
+          src="images/sss_ooo_cpu.png"
+          alt="an image of something else related to SS OOO CPU with BPU and caching"
+        />
+      </div>
+    </div>
+  </body>
+</html>
