@@ -12,7 +12,7 @@ body a{
 
 h3{
     font-size: 22px;
-    background-color: #111ea9;
+    background-color: #0950c2;
 }
 h3, p{
     padding-left: 10px;
@@ -35,7 +35,7 @@ header h1{
     display: flex;
     justify-content: center;
     overflow: hidden;
-    background-color: #111ea9;
+    background-color: #0950c2;
     position: sticky;
     top: 0px;
 }
@@ -53,7 +53,7 @@ header h1{
     color: black;
 }
 .navigation a.active { /* Add a color to the active/current link */
-    background-color: #520879;
+    background-color: #003790;
     color: white;
 }
 
@@ -103,7 +103,7 @@ header h1{
 .fun-facts h3{
     padding-left: 8px;
     padding-right: 8px;
-    background-color: #111ea9;
+    background-color: #0950c2;
     margin-left: 1px;
     margin-right: 1px;
 }
