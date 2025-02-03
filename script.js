@@ -3,12 +3,8 @@ function toggleStyle(){
 
     // let currTheme = theme.getAttribute("href");
     let newTheme = "style1.css"; // default to style1
-    if (theme.getAttribute("href") === "style1.css"){ 
-        newTheme = "style2.css";
-    } 
-    else{
-        newTheme = "style1.css";
-    }
+    if (theme.getAttribute("href") === "style1.css"){  newTheme = "style2.css"; } 
+    else{ newTheme = "style1.css"; }
 
     theme.setAttribute("href", newTheme);
     localStorage.setItem("currTheme", newTheme);

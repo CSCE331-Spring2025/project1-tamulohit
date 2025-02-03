@@ -9,6 +9,9 @@ body a{
     color: white;
     font-weight: bold;
 }
+body button{
+    font-family: 'Trebuchet MS';
+}
 
 h3{
     font-size: 22px;
