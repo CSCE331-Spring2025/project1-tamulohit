@@ -1,5 +1,6 @@
 body {
     background-color: lightgray;
+    /* background: linear-gradient(#003790, white); */
     /* color: white; */
     font-family: 'Trebuchet MS';
     margin: 0px;
@@ -120,4 +121,94 @@ h3, p{
     border-radius: 25px;
     box-shadow: -5px 5px 10px black;
 
+}
+
+/* PORTFOLIO PAGE */
+
+.nand{
+    display: flex;
+    /* gap: 20px; gap between the div elements under this main div */
+    align-items: center;
+    /* justify-content: center; */
+    margin-top: 15px;
+}
+.nand-flex{
+    flex: 1.3; /* the portion of the div that the textbox takes up */
+    border: 2px solid black;
+    border-radius: 25px;
+    background-color: white;
+}
+.nand-images-flex{
+    flex: .7;
+    display: flex;
+    flex-direction: column; /* Stack images vertically */
+    align-items: center; /* Center images horizontally */
+    gap: 10px;
+}
+.nand-images-flex img{
+    border: 2px solid black;
+    width: 600px;
+    height: 600px;
+    object-fit: cover;
+    border-radius: 25px;
+    box-shadow: -5px 5px 10px black;
+}
+
+.asic{
+    display: flex;
+    flex-direction: row-reverse; /* images on the left and text on right */
+    /* gap: 20px; gap between the div elements under this main div */
+    align-items: center;
+    /* justify-content: center; */
+    margin-top: 15px;
+}
+.asic-flex{
+    flex: 1.3; /* the portion of the div that the textbox takes up */
+    border: 2px solid black;
+    border-radius: 25px;
+    background-color: white;
+}
+.asic-images-flex{
+    flex: .7;
+    display: flex;
+    flex-direction: column; /* Stack images vertically */
+    align-items: center; /* Center images horizontally */
+    gap: 10px;
+}
+.asic-images-flex img{
+    border: 2px solid black;
+    width: 600px;
+    height: 600px;
+    object-fit: cover;
+    border-radius: 25px;
+    box-shadow: -5px 5px 10px black;
+}
+
+.ss{
+    display: flex;
+    /* gap: 20px; gap between the div elements under this main div */
+    align-items: center;
+    /* justify-content: center; */
+    margin-top: 15px;
+}
+.ss-flex{
+    flex: 1.3; /* the portion of the div that the textbox takes up */
+    border: 2px solid black;
+    border-radius: 25px;
+    background-color: white;
+}
+.ss-images-flex{
+    flex: .7;
+    display: flex;
+    flex-direction: column; /* Stack images vertically */
+    align-items: center; /* Center images horizontally */
+    gap: 10px;
+}
+.ss-images-flex img{
+    border: 2px solid black;
+    width: 600px;
+    height: 600px;
+    object-fit: cover;
+    border-radius: 25px;
+    box-shadow: -5px 5px 10px black;
 }
